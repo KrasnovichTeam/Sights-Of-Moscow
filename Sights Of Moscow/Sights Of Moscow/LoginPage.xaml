@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sights_Of_Moscow.LoginPage"
+             xmlns:local="clr-namespace:Sights_Of_Moscow" Visual="Material">
+    <StackLayout  Margin="43,20" Spacing="35">
+        <Image
+            x:Name="IconLoginImg"
+            Margin="0,0,0,20"
+            Aspect="AspectFit"
+            Scale="0.9"
+            Source="image.png"/>
+        <StackLayout Spacing="50">
+            <Frame BorderColor="#000">
+                <Entry
+                    x:Name="LoginEntry"
+                    Margin="-20,-25"
+                    VerticalOptions="CenterAndExpand" />
+            </Frame>
+            <Frame BorderColor="#000">
+                <Entry
+                    x:Name="PasswordEntry"
+                    Margin="-20,-25"
+                    VerticalOptions="CenterAndExpand" />
+            </Frame>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button
+                HeightRequest="50"
+                CornerRadius="30"
+                BackgroundColor="Black"
+                x:Name="RigistrationPageBtn"
+                TextColor="White"
+                Clicked="RigistrationPageBtn_Clicked"
+                HorizontalOptions="Start"
+                Text="REGISTRARION" />
+            <Button
+                HeightRequest="50"
+                CornerRadius="30"
+                BackgroundColor="Black"
+                x:Name="LoginBtn"
+                TextColor="White"
+                Clicked="LoginBtn_Clicked"
+                HorizontalOptions="EndAndExpand"
+                Text="LOG IN" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

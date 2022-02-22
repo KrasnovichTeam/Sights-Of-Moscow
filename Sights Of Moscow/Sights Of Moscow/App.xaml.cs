@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+[assembly: ExportFont("MaterialIcons-Regular.ttf", Alias = "MaterialIconsFont")]
 namespace Sights_Of_Moscow
 {
     public partial class App : Application
@@ -10,7 +11,7 @@ namespace Sights_Of_Moscow
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()
