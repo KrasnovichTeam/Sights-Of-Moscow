@@ -3,46 +3,47 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Sights_Of_Moscow.LoginPage"
              xmlns:local="clr-namespace:Sights_Of_Moscow" Visual="Material">
-    <StackLayout  Margin="43,20" Spacing="35">
+    <StackLayout  Margin="26,6" Spacing="5">
+        <Label Text="Sights Of Moscow" TextColor="Black" FontSize="25" Margin="120,0" FontAttributes="Bold"></Label>
         <Image
             x:Name="IconLoginImg"
-            Margin="0,0,0,20"
             Aspect="AspectFit"
             Scale="0.9"
-            Source="image.png"/>
-        <StackLayout Spacing="50">
+            Source="Font.png"/>
+        <StackLayout Spacing="5">
+            <Label Text="Login" TextColor="Black" FontSize="15"></Label>
             <Frame BorderColor="#000">
-                <Entry
+                <Entry FontSize="25"
                     x:Name="LoginEntry"
                     Margin="-20,-25"
                     VerticalOptions="CenterAndExpand" />
             </Frame>
+            <Label Text="Password" TextColor="Black" FontSize="15"></Label>
             <Frame BorderColor="#000">
                 <Entry
+                    FontSize="25"
                     x:Name="PasswordEntry"
                     Margin="-20,-25"
                     VerticalOptions="CenterAndExpand" />
             </Frame>
         </StackLayout>
-        <StackLayout Orientation="Horizontal">
+        <StackLayout Orientation="Vertical" Spacing="10">
             <Button
-                HeightRequest="50"
-                CornerRadius="30"
                 BackgroundColor="Black"
                 x:Name="RigistrationPageBtn"
                 TextColor="White"
                 Clicked="RigistrationPageBtn_Clicked"
-                HorizontalOptions="Start"
+                HorizontalOptions="FillAndExpand"
                 Text="REGISTRARION" />
-            <Button
-                HeightRequest="50"
-                CornerRadius="30"
+            <StackLayout>
+                <Button
                 BackgroundColor="Black"
                 x:Name="LoginBtn"
                 TextColor="White"
                 Clicked="LoginBtn_Clicked"
-                HorizontalOptions="EndAndExpand"
+                HorizontalOptions="FillAndExpand"
                 Text="LOG IN" />
+            </StackLayout>
         </StackLayout>
     </StackLayout>
 </ContentPage>
