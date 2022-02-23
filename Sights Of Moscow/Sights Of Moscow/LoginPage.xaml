@@ -2,13 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Sights_Of_Moscow.LoginPage"
-             xmlns:local="clr-namespace:Sights_Of_Moscow" Visual="Material">
+             xmlns:local="clr-namespace:Sights_Of_Moscow" 
+             NavigationPage.HasNavigationBar="False"
+             Visual="Material">
     <StackLayout  Margin="26,6" Spacing="5">
-        <Label Text="Sights Of Moscow" TextColor="Black" FontSize="25" Margin="120,0" FontAttributes="Bold"></Label>
+        <Label Text="Sights Of Moscow" TextColor="Black" FontSize="25" Margin="110,0" FontAttributes="Bold"></Label>
         <Image
             x:Name="IconLoginImg"
             Aspect="AspectFit"
-            Scale="0.9"
+            Scale="1"
             Source="Font.png"/>
         <StackLayout Spacing="5">
             <Label Text="Login" TextColor="Black" FontSize="15"></Label>
@@ -27,11 +29,12 @@
                     VerticalOptions="CenterAndExpand" />
             </Frame>
         </StackLayout>
-        <StackLayout Orientation="Vertical" Spacing="10">
+        <StackLayout Margin="0,60,0,0" Orientation="Vertical" Spacing="10">
             <Button
                 BackgroundColor="Black"
                 x:Name="RigistrationPageBtn"
                 TextColor="White"
+                CornerRadius="5"
                 Clicked="RigistrationPageBtn_Clicked"
                 HorizontalOptions="FillAndExpand"
                 Text="REGISTRARION" />
@@ -40,10 +43,13 @@
                 BackgroundColor="Black"
                 x:Name="LoginBtn"
                 TextColor="White"
+                CornerRadius="5"
                 Clicked="LoginBtn_Clicked"
                 HorizontalOptions="FillAndExpand"
                 Text="LOG IN" />
             </StackLayout>
+            <Label FontAttributes="Bold" Text="MADE BY YOUNG PROFESSIONALS" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center"></Label>
+            <Label FontAttributes="Bold" Text="KRASNOVICH MILLER BULOCHKA LALPOTRASH" TextColor="Gray" FontSize="11" HorizontalTextAlignment="Center"></Label>
         </StackLayout>
     </StackLayout>
 </ContentPage>
