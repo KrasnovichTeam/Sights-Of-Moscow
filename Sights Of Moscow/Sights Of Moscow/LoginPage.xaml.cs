@@ -19,12 +19,12 @@ namespace Sights_Of_Moscow
 
         private void RigistrationPageBtn_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new RegistrationPage(), true);
         }
 
         private void LoginBtn_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new MenuPage(), true);
         }
     }
 }

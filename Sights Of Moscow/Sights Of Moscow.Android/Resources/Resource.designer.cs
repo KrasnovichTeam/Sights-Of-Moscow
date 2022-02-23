@@ -11790,6 +11790,9 @@ namespace Sights_Of_Moscow.Droid
 			// aapt resource value: 0x7F070090
 			public const int tooltip_frame_light = 2131165328;
 			
+			// aapt resource value: 0x7F070091
+			public const int watermark = 2131165329;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

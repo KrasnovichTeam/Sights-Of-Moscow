@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sights_Of_Moscow.RegistrationPage"
+             NavigationPage.HasNavigationBar="True"
+             Visual="Material" BackgroundColor="White">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black" Text="Registration" FontSize="Large" HorizontalTextAlignment="Center" Margin="0,0,60,0"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
+    <ContentPage.Content>
+        <StackLayout Margin="26,6" Spacing="5">
+            <Label Text="Your Nickname" Margin="10, 30, 0, 0" FontSize="Medium" TextColor="Black"/>
+            <Frame BorderColor="#000">
+                <Entry
+                    FontSize="25"
+                    x:Name="NicknameEntry"
+                    Margin="-10,-20"
+                    VerticalOptions="CenterAndExpand" />
+            </Frame>
+            <Label Text="Your Email" Margin="10, 10, 0, 0" FontSize="Medium" TextColor="Black"/>
+            <Frame BorderColor="#000">
+                <Entry
+                    FontSize="25"
+                    x:Name="EmailEntry"
+                    Margin="-20,-20"
+                    VerticalOptions="CenterAndExpand" />
+            </Frame>
+            <Label Text="Your Password" Margin="10, 10, 0, 0" FontSize="Medium" TextColor="Black"/>
+            <Frame BorderColor="#000">
+                <Entry
+                    FontSize="25"
+                    x:Name="PasswordEntry"
+                    Margin="-20,-20"
+                    VerticalOptions="CenterAndExpand" />
+            </Frame>
+            <Button 
+                Margin="0,20,0,0"
+                BackgroundColor="Black"
+                x:Name="LoginBtn"
+                TextColor="White"
+                CornerRadius="5"
+                HorizontalOptions="FillAndExpand"
+                Clicked="MenuPage_Btn" 
+                Text="Next" BorderColor="#000000" >
+                
+            </Button>
+            <ImageButton
+            Margin="-40,130,100,0"
+            x:Name="IconLoginImg"
+            Aspect="AspectFit"
+            Scale="2"
+            Source="watermark.jpg"
+            Clicked="IconLoginImg_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -83,7 +83,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\watermark.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sights Of Moscow\Sights Of Moscow.csproj">
       <Project>{C4398482-8EA3-40E3-A6EE-A742E760E625}</Project>
