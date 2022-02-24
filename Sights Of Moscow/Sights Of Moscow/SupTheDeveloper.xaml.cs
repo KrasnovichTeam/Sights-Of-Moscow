@@ -16,5 +16,15 @@ namespace Sights_Of_Moscow
         {
             InitializeComponent();
         }
+
+        private void IconImg_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Icon2Img_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

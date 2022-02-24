@@ -1,12 +1,89 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Sights_Of_Moscow.SupTheDeveloper">
-    <ContentPage.Content>
+             x:Class="Sights_Of_Moscow.SupTheDeveloper"
+             NavigationPage.HasNavigationBar="True"
+             Visual="Material" BackgroundColor="White">
+    <NavigationPage.TitleView>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label 
+                FontAttributes="Bold" 
+                HorizontalOptions="Center"
+                TextColor="Black"
+                Text="SUPPORT THE DEVELOPER" 
+                FontSize="17" 
+                HorizontalTextAlignment="Center"
+                Margin="0,0,60,0"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <StackLayout Margin="50,30" Spacing="5">
+            <Label 
+                Text="KRASNOVICH"
+                Margin="10, 10, 0, 0"
+                FontSize="14"
+                FontAttributes="Bold" 
+                HorizontalOptions="Center"
+                TextColor="Black"/>
+            <Frame BorderColor="Black">
+                <Entry        
+                    FontSize="17"
+                    x:Name="KrasnovichEntry"
+                    Margin="-10,-20"
+                    VerticalOptions="CenterAndExpand" />
+            </Frame>
+            <Label
+                Text="MILLER"
+                Margin="10, 10, 0, 0" 
+                FontSize="14"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                TextColor="Black"/>
+            <Frame BorderColor="#000">
+                <Entry
+                    FontSize="17"
+                    x:Name="MillerEntry"
+                    Margin="-10,-20"
+                    VerticalOptions="CenterAndExpand" />
+            </Frame>
+            <Label 
+                Text="BULOCHKA" 
+                Margin="10, 10, 0, 0" 
+                FontSize="14" 
+                FontAttributes="Bold"
+                HorizontalOptions="Center" 
+                TextColor="Black"/>
+            <Frame BorderColor="#000">
+                <Entry
+                    FontSize="17"
+                    x:Name="BulatEntry"
+                    Margin="-10,-20"
+                    VerticalOptions="CenterAndExpand" />
+            </Frame>
+            <Label 
+                Text="LALPOTRASH"
+                Margin="10, 10, 0, 0"
+                FontSize="14" 
+                FontAttributes="Bold"
+                HorizontalOptions="Center" 
+                TextColor="Black"/>
+            <Frame BorderColor="#000">
+                <Entry
+                    FontSize="17"
+                    x:Name="denchikEntry"
+                    Margin="-10,-20"
+                    VerticalOptions="CenterAndExpand" />
+            </Frame>
+            <Image
+            Margin="-5,20,130,0"
+                Aspect="AspectFill"
+            x:Name="IconImg"
+            Source="HeartL.png"/>
+            <Image
+            Margin="-5,-60,130,0"
+                Aspect="AspectFill"
+            x:Name="Icon2Img"
+            Source="Love.png"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

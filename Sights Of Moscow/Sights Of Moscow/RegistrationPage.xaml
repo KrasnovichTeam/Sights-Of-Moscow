@@ -48,7 +48,7 @@
                 
             </Button>
             <ImageButton
-            Margin="-40,130,100,0"
+            Margin="-40,75,100,0"
             x:Name="IconLoginImg"
             Aspect="AspectFit"
             Scale="2"
