@@ -80,7 +80,7 @@
             x:Name="IconImg"
             Source="HeartL.png"/>
             <Image
-            Margin="-5,-60,130,0"
+            Margin="-5,-70,130,0"
                 Aspect="AspectFill"
             x:Name="Icon2Img"
             Source="Love.png"/>
