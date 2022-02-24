@@ -29,7 +29,7 @@
                     VerticalOptions="CenterAndExpand" />
             </Frame>
         </StackLayout>
-        <StackLayout Margin="0,60,0,0" Orientation="Vertical" Spacing="10">
+        <StackLayout Margin="0,50,0,0" Orientation="Vertical" Spacing="7">
             <Button
                 BackgroundColor="Black"
                 x:Name="RigistrationPageBtn"
@@ -49,7 +49,7 @@
                 Text="LOG IN" />
             </StackLayout>
             <Label FontAttributes="Bold" Text="MADE BY YOUNG PROFESSIONALS" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center"></Label>
-            <Label FontAttributes="Bold" Text="KRASNOVICH MILLER BULOCHKA LALPOTRASH" TextColor="Gray" FontSize="11" HorizontalTextAlignment="Center"></Label>
+            <Label FontAttributes="Bold" Text="KRASNOVICH MILLER BULOCHKA LALPOTRASH" TextColor="Gray" FontSize="12" HorizontalTextAlignment="Center"></Label>
         </StackLayout>
     </StackLayout>
 </ContentPage>

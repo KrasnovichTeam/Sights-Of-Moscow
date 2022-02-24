@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Sights_Of_Moscow.Models;
+using Sights_Of_Moscow.db;
 
 namespace Sights_Of_Moscow
 {
@@ -18,14 +20,28 @@ namespace Sights_Of_Moscow
             ((NavigationPage)Application.Current.MainPage).BarBackgroundColor = Color.White;
             ((NavigationPage)Application.Current.MainPage).BarTextColor = Color.Black;
         }
-        private void MenuPage_Btn(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new MenuPage(), true);
-        }
-
         private void IconLoginImg_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new SupTheDeveloper(), true);
+        }
+        private async void MenuPage_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                if (NicknameEntry != null && EmailEntry != null && PasswordEntry != null)
+                {
+                    await DisplayAlert("Уведомление", "Введите в поля данные!", "Ok");
+                }
+                else 
+                {
+                    App.Db.SaveClient(new Client(NicknameEntry.Text, EmailEntry.Text, PasswordEntry.Text));
+                    await Navigation.PushModalAsync(new NavigationPage(new MenuPage()));
+                }
+            }
+            catch
+            {
+                await DisplayAlert("Уведомление", "Не удалось зарегистрироваться", "Ok");
+            }
         }
     }
 }

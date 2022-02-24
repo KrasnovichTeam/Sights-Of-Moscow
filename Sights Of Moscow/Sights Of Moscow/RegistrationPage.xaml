@@ -39,11 +39,11 @@
             <Button 
                 Margin="0,20,0,0"
                 BackgroundColor="Black"
-                x:Name="LoginBtn"
+                x:Name="MenuPage"
                 TextColor="White"
                 CornerRadius="5"
                 HorizontalOptions="FillAndExpand"
-                Clicked="MenuPage_Btn" 
+                Clicked="MenuPage_Clicked" 
                 Text="Next" BorderColor="#000000" >
                 
             </Button>
