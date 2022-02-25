@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            NavigationPage.HasNavigationBar="True"
+            BackgroundColor="White"
+             x:Class="Sights_Of_Moscow.OsnovaPhoto" Visual="Material">
+    <ContentPage Title="History">
+        <ScrollView>
+            <StackLayout Spacing="-30">
+                <Label FontSize="15" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Cкульптурный монумент, посвящённый предводителям Второго народного ополчения 1612 года, а также окончанию Смутного времени и изгнанию польских интервентов из России. Является первым крупным скульптурным памятником в Москве. Был создан по проекту архитектора Ивана Мартоса в 1818 году."></Label>
+                <Label FontSize="15" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Памятник выполнен в стиле классицизма, что объясняется монументальностью форм и плавностью объёмов]. Монумент состоит из бронзовой скульптурной группы и гранитного пьедестала с бронзовыми барельефами. Пьедестал украшен барельефами с двух сторон и надписью: «ГРАЖДАНИНУ МИНИНУ И КНЯЗЮ ПОЖАРСКОМУ БЛАГОДАРНАЯ РОССІЯ. ЛѢТА 1818». Высота памятника (без террасы) составляет примерно 8,3 м, по другим данным — 8,6 м и 8,8 м."></Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Photos">
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Orientation="Vertical">
+                    <Image 
+                x:Name="MP"
+                        Aspect="AspectFit"
+                WidthRequest="300"
+                HeightRequest="300"
+                Scale="0.8"
+                Source="Minin_Pojarskiy.jpg"/>
+                    <Label FontAttributes="Bold" Text="EXPLANATION FOR THE PHOTO" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center"></Label>
+                        <Image
+                x:Name="MP2"
+                            Aspect="AspectFit"
+                WidthRequest="300"
+                HeightRequest="300"
+                Scale="0.8"
+                Source="Minin_Pojarskiy2.jpg"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Address">
+        <StackLayout Spacing="60" Margin="30,30,30,0">
+            <Frame BorderColor="Black" Padding="0">
+                <Entry x:Name="Sity" TextColor="Black" IsEnabled="False" Placeholder="SITY" Text="MOSCOW" Background="White" />
+            </Frame>
+            <Frame BorderColor="Black" Padding="0">
+            <Entry x:Name="Street" TextColor="Black" IsEnabled="False" Text="RED SQUARE" Placeholder="STREET" Background="White"/>
+            </Frame>
+            <Frame BorderColor="Black" Padding="0">
+            <Entry x:Name="Subway" TextColor="Black" IsEnabled="False" Text="REVOLUTION SQUARE" Placeholder="SUBWAY" Background="White"/>
+            </Frame>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>
