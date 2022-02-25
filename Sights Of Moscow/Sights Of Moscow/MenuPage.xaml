@@ -7,8 +7,12 @@
         <ScrollView>
             <StackLayout>
                 <StackLayout Orientation="Horizontal" Spacing="50">
-                    <Button WidthRequest="100" HeightRequest="100" Clicked="OpenProject" Text="Проект 1" Margin="0,5,0,0" BorderColor="#000000" ></Button>
-                    <Button WidthRequest="100" HeightRequest="100" Text="Проект 2" BorderColor="#000000" ></Button>
+                    <Button WidthRequest="150" HeightRequest="150" Margin="20,0,0,0" Clicked="OpenProject" Text="Проект 1" BorderColor="#000000" ></Button>
+                    <Button WidthRequest="150" HeightRequest="150" Text="Проект 2" BorderColor="#000000" ></Button>
+                </StackLayout>
+                <StackLayout Margin="80,0,0,0" Orientation="Horizontal" Spacing="70">
+                    <Label  WidthRequest="200" Text="wwww"/>
+                    <Label  WidthRequest="200" Text="wwww"/>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" Spacing="50">
                     <Button WidthRequest="100" HeightRequest="100" Text="Проект 3" Margin="0,5,0,0" BorderColor="#000000" ></Button>
