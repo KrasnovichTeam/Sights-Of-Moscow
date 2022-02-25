@@ -3,7 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             NavigationPage.HasNavigationBar="True"
             BackgroundColor="White"
-             x:Class="Sights_Of_Moscow.OsnovaPhoto" Visual="Material">
+            BarTextColor="Black"
+            
+            x:Class="Sights_Of_Moscow.OsnovaPhoto" Visual="Material">
     <ContentPage Title="History">
         <ScrollView>
             <StackLayout Spacing="-30">

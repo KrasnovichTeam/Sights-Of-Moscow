@@ -15,7 +15,7 @@
         <StackLayout Spacing="5">
             <Label Text="Login" TextColor="Black" FontSize="15"></Label>
             <Frame BorderColor="#000">
-                <Entry FontSize="25"
+                <Entry FontSize="30"
                     x:Name="LoginEntry"
                     Margin="-20,-25"
                     VerticalOptions="CenterAndExpand" />
