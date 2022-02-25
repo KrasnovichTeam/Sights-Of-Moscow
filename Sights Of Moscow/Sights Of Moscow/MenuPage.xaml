@@ -5,9 +5,15 @@
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Orientation="Horizontal">
-                <Button Clicked="OpenProject" Text="Проект 1" Margin="0,5,0,0" BorderColor="#000000" ></Button>
-                <Button Text="Проект 2" BorderColor="#000000" ></Button>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="50">
+                    <Button WidthRequest="100" HeightRequest="100" Clicked="OpenProject" Text="Проект 1" Margin="0,5,0,0" BorderColor="#000000" ></Button>
+                    <Button WidthRequest="100" HeightRequest="100" Text="Проект 2" BorderColor="#000000" ></Button>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="50">
+                    <Button WidthRequest="100" HeightRequest="100" Text="Проект 3" Margin="0,5,0,0" BorderColor="#000000" ></Button>
+                    <Button WidthRequest="100" HeightRequest="100" Text="Проект 4" BorderColor="#000000" ></Button>
+                </StackLayout>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
