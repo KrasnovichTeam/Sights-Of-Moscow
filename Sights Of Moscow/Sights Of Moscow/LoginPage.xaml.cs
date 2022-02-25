@@ -29,7 +29,7 @@ namespace Sights_Of_Moscow
 
             foreach (var item in lst)
             {
-                if (LoginEntry != null && PasswordEntry != null)
+                if (LoginEntry == null && PasswordEntry == null)
                 {
                     await DisplayAlert("Уведомление", "Не правилный логин или пароль", "Ok");
                 }

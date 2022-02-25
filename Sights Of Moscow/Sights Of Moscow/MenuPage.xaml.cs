@@ -16,5 +16,9 @@ namespace Sights_Of_Moscow
         {
             InitializeComponent();
         }
+        async void OpenProject(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new OsnovaPhoto(), true);
+        }
     }
 }

@@ -30,12 +30,12 @@ namespace Sights_Of_Moscow
             {
                 if (NicknameEntry != null && EmailEntry != null && PasswordEntry != null)
                 {
-                    await DisplayAlert("Уведомление", "Введите в поля данные!", "Ok");
+                    App.Db.SaveClient(new Client(NicknameEntry.Text, EmailEntry.Text, PasswordEntry.Text));
+                    await Navigation.PushModalAsync(new NavigationPage(new MenuPage()));
                 }
                 else 
                 {
-                    App.Db.SaveClient(new Client(NicknameEntry.Text, EmailEntry.Text, PasswordEntry.Text));
-                    await Navigation.PushModalAsync(new NavigationPage(new MenuPage()));
+                    await DisplayAlert("Уведомление", "Введите в поля данные!", "Ok");
                 }
             }
             catch
