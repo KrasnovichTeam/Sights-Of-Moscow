@@ -26,7 +26,7 @@ namespace Sights_Of_Moscow
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new OsnovaPhoto());
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()

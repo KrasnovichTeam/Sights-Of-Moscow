@@ -75,12 +75,12 @@
                     VerticalOptions="CenterAndExpand" />
             </Frame>
             <Image
-            Margin="-5,20,130,0"
+            Margin="-10,-10,120,0"
                 Aspect="AspectFill"
             x:Name="IconImg"
             Source="HeartL.png"/>
             <Image
-            Margin="-5,-70,130,0"
+            Margin="100,-200,-20,-10"
                 Aspect="AspectFill"
             x:Name="Icon2Img"
             Source="Love.png"/>
