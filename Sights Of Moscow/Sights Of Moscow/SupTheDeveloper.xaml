@@ -17,22 +17,29 @@
         </StackLayout>
     </NavigationPage.TitleView>
     <ContentPage.Content>
-        <StackLayout Margin="50,30" Spacing="5">
+        <StackLayout Margin="50,10" Spacing="5">
             <Label 
                 Text="KRASNOVICH"
                 Margin="10, 10, 0, 0"
                 FontSize="14"
                 FontAttributes="Bold" 
                 HorizontalOptions="Center"
+                Padding="5"
                 TextColor="Black"/>
             <Frame BorderColor="Black">
-                <Entry        
-                    FontSize="17"
+                <Label        
+                    FontSize="20"
                     x:Name="KrasnovichEntry"
-                    Margin="-10,-20"
-                    VerticalOptions="CenterAndExpand" />
+                    TextColor="Black"
+                    Margin="-5"
+                    Text="4276 6200 3125 1790"
+                    FontAttributes="Bold"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="Start" />
+                
             </Frame>
             <Label
+                Padding="5"
                 Text="MILLER"
                 Margin="10, 10, 0, 0" 
                 FontSize="14"
@@ -40,13 +47,18 @@
                 HorizontalOptions="Center"
                 TextColor="Black"/>
             <Frame BorderColor="#000">
-                <Entry
-                    FontSize="17"
-                    x:Name="MillerEntry"
-                    Margin="-10,-20"
-                    VerticalOptions="CenterAndExpand" />
+                <Label        
+                    FontSize="20"
+                    x:Name="MillerhEntry"
+                    Margin="-5"
+                    TextColor="Black"
+                    Text="4276 6200 3125 1790"
+                    FontAttributes="Bold"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="Start" />
             </Frame>
             <Label 
+                Padding="5"
                 Text="BULOCHKA" 
                 Margin="10, 10, 0, 0" 
                 FontSize="14" 
@@ -54,13 +66,18 @@
                 HorizontalOptions="Center" 
                 TextColor="Black"/>
             <Frame BorderColor="#000">
-                <Entry
-                    FontSize="17"
-                    x:Name="BulatEntry"
-                    Margin="-10,-20"
-                    VerticalOptions="CenterAndExpand" />
+                <Label        
+                    FontSize="20"
+                    x:Name="bulatEntry"
+                    TextColor="Black"
+                    Margin="-5"
+                    Text="4276 6200 3125 1790"
+                    FontAttributes="Bold"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="Start" />
             </Frame>
             <Label 
+                Padding="5"
                 Text="LALPOTRASH"
                 Margin="10, 10, 0, 0"
                 FontSize="14" 
@@ -68,11 +85,15 @@
                 HorizontalOptions="Center" 
                 TextColor="Black"/>
             <Frame BorderColor="#000">
-                <Entry
-                    FontSize="17"
+                <Label        
+                    FontSize="20"
                     x:Name="denchikEntry"
-                    Margin="-10,-20"
-                    VerticalOptions="CenterAndExpand" />
+                    TextColor="Black"
+                    Margin="-5"
+                    Text="4276 6200 3125 1790"
+                    FontAttributes="Bold"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="Start" />
             </Frame>
             <Image
             Margin="-10,-10,120,0"
