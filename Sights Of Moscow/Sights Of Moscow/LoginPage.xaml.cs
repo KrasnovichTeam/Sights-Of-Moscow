@@ -28,14 +28,14 @@ namespace Sights_Of_Moscow
             //var lst = App.Db.GetClients();
             //bool state = false;
 
-            //foreach (var item in lst)
-            //{
-            //    if (LoginEntry != null && PasswordEntry != null)
-            //    {
-            //        await DisplayAlert("Уведомление", "Не правилный логин или пароль", "Ok");
-            //    }
-            //    else if (item.Nickname == LoginEntry.Text)
-            //    {
+            foreach (var item in lst)
+            {
+                if (LoginEntry == null && PasswordEntry == null)
+                {
+                    await DisplayAlert("Уведомление", "Не правилный логин или пароль", "Ok");
+                }
+                else if (item.Nickname == LoginEntry.Text)
+                {
 
             //        if (item.Password == PasswordEntry.Text && state == false)
             //        {
