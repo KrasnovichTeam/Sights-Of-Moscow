@@ -18110,6 +18110,9 @@ namespace Sights_Of_Moscow.Droid
 			// aapt resource value: 0x7F030252
 			public const int linearProgressIndicatorStyle = 2130903634;
 			
+			// aapt resource value: 0x7F030252
+			public const int linearProgressIndicatorStyle = 2130903634;
+			
 			// aapt resource value: 0x7F030250
 			public const int lineHeight = 2130903632;
 			
@@ -18187,6 +18190,9 @@ namespace Sights_Of_Moscow.Droid
 			
 			// aapt resource value: 0x7F03026A
 			public const int materialButtonStyle = 2130903658;
+			
+			// aapt resource value: 0x7F03026B
+			public const int materialButtonToggleGroupStyle = 2130903659;
 			
 			// aapt resource value: 0x7F03026B
 			public const int materialButtonToggleGroupStyle = 2130903659;
@@ -22207,8 +22213,14 @@ namespace Sights_Of_Moscow.Droid
 			// aapt resource value: 0x7F080000
 			public const int ALT = 2131230720;
 			
+			// aapt resource value: 0x7F080000
+			public const int ALT = 2131230720;
+			
 			// aapt resource value: 0x7F08004C
 			public const int always = 2131230796;
+			
+			// aapt resource value: 0x7F08004D
+			public const int animateToEnd = 2131230797;
 			
 			// aapt resource value: 0x7F08004D
 			public const int animateToEnd = 2131230797;
@@ -22218,6 +22230,9 @@ namespace Sights_Of_Moscow.Droid
 			
 			// aapt resource value: 0x7F080050
 			public const int anticipate = 2131230800;
+			
+			// aapt resource value: 0x7F08004F
+			public const int antiClockwise = 2131230799;
 			
 			// aapt resource value: 0x7F08004F
 			public const int antiClockwise = 2131230799;
@@ -22255,6 +22270,9 @@ namespace Sights_Of_Moscow.Droid
 			// aapt resource value: 0x7F08005A
 			public const int beginOnFirstDraw = 2131230810;
 			
+			// aapt resource value: 0x7F08005A
+			public const int beginOnFirstDraw = 2131230810;
+			
 			// aapt resource value: 0x7F08005C
 			public const int bestChoice = 2131230812;
 			
@@ -22269,6 +22287,12 @@ namespace Sights_Of_Moscow.Droid
 			
 			// aapt resource value: 0x7F080060
 			public const int bottomtab_tabbar = 2131230816;
+			
+			// aapt resource value: 0x7F080001
+			public const int BOTTOM_END = 2131230721;
+			
+			// aapt resource value: 0x7F080002
+			public const int BOTTOM_START = 2131230722;
 			
 			// aapt resource value: 0x7F080001
 			public const int BOTTOM_END = 2131230721;
@@ -22357,6 +22381,9 @@ namespace Sights_Of_Moscow.Droid
 			// aapt resource value: 0x7F08007B
 			public const int chronometer = 2131230843;
 			
+			// aapt resource value: 0x7F08007B
+			public const int chronometer = 2131230843;
+			
 			// aapt resource value: 0x7F08007C
 			public const int circle_center = 2131230844;
 			
@@ -22368,6 +22395,9 @@ namespace Sights_Of_Moscow.Droid
 			
 			// aapt resource value: 0x7F08007F
 			public const int clip_vertical = 2131230847;
+			
+			// aapt resource value: 0x7F080080
+			public const int clockwise = 2131230848;
 			
 			// aapt resource value: 0x7F080080
 			public const int clockwise = 2131230848;
@@ -22407,6 +22437,9 @@ namespace Sights_Of_Moscow.Droid
 			
 			// aapt resource value: 0x7F08008C
 			public const int counterclockwise = 2131230860;
+			
+			// aapt resource value: 0x7F080003
+			public const int CTRL = 2131230723;
 			
 			// aapt resource value: 0x7F080003
 			public const int CTRL = 2131230723;
@@ -22510,6 +22543,9 @@ namespace Sights_Of_Moscow.Droid
 			// aapt resource value: 0x7F0800AD
 			public const int dropdown_menu = 2131230893;
 			
+			// aapt resource value: 0x7F0800AD
+			public const int dropdown_menu = 2131230893;
+			
 			// aapt resource value: 0x7F0800AE
 			public const int easeIn = 2131230894;
 			
@@ -22552,11 +22588,17 @@ namespace Sights_Of_Moscow.Droid
 			// aapt resource value: 0x7F0800BA
 			public const int expand_activities_button = 2131230906;
 			
+			// aapt resource value: 0x7F0800BA
+			public const int expand_activities_button = 2131230906;
+			
 			// aapt resource value: 0x7F0800BC
 			public const int fade = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
 			public const int fill = 2131230909;
+			
+			// aapt resource value: 0x7F0800C0
+			public const int filled = 2131230912;
 			
 			// aapt resource value: 0x7F0800C0
 			public const int filled = 2131230912;
@@ -22579,6 +22621,9 @@ namespace Sights_Of_Moscow.Droid
 			// aapt resource value: 0x7F0800C4
 			public const int floating = 2131230916;
 			
+			// aapt resource value: 0x7F0800C4
+			public const int floating = 2131230916;
+			
 			// aapt resource value: 0x7F0800C5
 			public const int flyoutcontent_appbar = 2131230917;
 			
@@ -22590,6 +22635,9 @@ namespace Sights_Of_Moscow.Droid
 			
 			// aapt resource value: 0x7F0800C8
 			public const int frost = 2131230920;
+			
+			// aapt resource value: 0x7F080004
+			public const int FUNCTION = 2131230724;
 			
 			// aapt resource value: 0x7F080004
 			public const int FUNCTION = 2131230724;
@@ -22614,6 +22662,9 @@ namespace Sights_Of_Moscow.Droid
 			
 			// aapt resource value: 0x7F0800D0
 			public const int groups = 2131230928;
+			
+			// aapt resource value: 0x7F0800CE
+			public const int group_divider = 2131230926;
 			
 			// aapt resource value: 0x7F0800CE
 			public const int group_divider = 2131230926;
@@ -22675,6 +22726,9 @@ namespace Sights_Of_Moscow.Droid
 			// aapt resource value: 0x7F0800E3
 			public const int inward = 2131230947;
 			
+			// aapt resource value: 0x7F0800E3
+			public const int inward = 2131230947;
+			
 			// aapt resource value: 0x7F0800E4
 			public const int italic = 2131230948;
 			
@@ -22707,6 +22761,9 @@ namespace Sights_Of_Moscow.Droid
 			
 			// aapt resource value: 0x7F0800EE
 			public const int line3 = 2131230958;
+			
+			// aapt resource value: 0x7F0800EF
+			public const int linear = 2131230959;
 			
 			// aapt resource value: 0x7F0800EF
 			public const int linear = 2131230959;
@@ -22804,6 +22861,9 @@ namespace Sights_Of_Moscow.Droid
 			// aapt resource value: 0x7F08010E
 			public const int media_controller_compat_view_tag = 2131230990;
 			
+			// aapt resource value: 0x7F080005
+			public const int META = 2131230725;
+			
 			// aapt resource value: 0x7F08010F
 			public const int message = 2131230991;
 			
@@ -22848,6 +22908,21 @@ namespace Sights_Of_Moscow.Droid
 			
 			// aapt resource value: 0x7F08011C
 			public const int mtrl_calendar_frame = 2131231004;
+			
+			// aapt resource value: 0x7F080118
+			public const int mtrl_anchor_parent = 2131231000;
+			
+			// aapt resource value: 0x7F08011A
+			public const int mtrl_calendar_days_of_week = 2131231002;
+			
+			// aapt resource value: 0x7F080119
+			public const int mtrl_calendar_day_selector_frame = 2131231001;
+			
+			// aapt resource value: 0x7F08011B
+			public const int mtrl_calendar_frame = 2131231003;
+			
+			// aapt resource value: 0x7F08011C
+			public const int mtrl_calendar_main_pane = 2131231004;
 			
 			// aapt resource value: 0x7F08011D
 			public const int mtrl_calendar_main_pane = 2131231005;
@@ -23506,6 +23581,63 @@ namespace Sights_Of_Moscow.Droid
 			// aapt resource value: 0x7F0801EF
 			public const int zero_corner_chip = 2131231215;
 			
+			// aapt resource value: 0x7F0801DC
+			public const int up = 2131231196;
+			
+			// aapt resource value: 0x7F0801DD
+			public const int useLogo = 2131231197;
+			
+			// aapt resource value: 0x7F0801DE
+			public const int vertical_only = 2131231198;
+			
+			// aapt resource value: 0x7F0801DF
+			public const int view_offset_helper = 2131231199;
+			
+			// aapt resource value: 0x7F0801E0
+			public const int view_transition = 2131231200;
+			
+			// aapt resource value: 0x7F0801E1
+			public const int view_tree_lifecycle_owner = 2131231201;
+			
+			// aapt resource value: 0x7F0801E2
+			public const int view_tree_saved_state_registry_owner = 2131231202;
+			
+			// aapt resource value: 0x7F0801E3
+			public const int view_tree_view_model_store_owner = 2131231203;
+			
+			// aapt resource value: 0x7F0801E4
+			public const int visible = 2131231204;
+			
+			// aapt resource value: 0x7F0801E5
+			public const int visible_removing_fragment_view_tag = 2131231205;
+			
+			// aapt resource value: 0x7F0801E6
+			public const int west = 2131231206;
+			
+			// aapt resource value: 0x7F0801E8
+			public const int withinBounds = 2131231208;
+			
+			// aapt resource value: 0x7F0801E7
+			public const int withText = 2131231207;
+			
+			// aapt resource value: 0x7F0801E9
+			public const int wrap = 2131231209;
+			
+			// aapt resource value: 0x7F0801EA
+			public const int wrap_content = 2131231210;
+			
+			// aapt resource value: 0x7F0801EB
+			public const int wrap_content_constrained = 2131231211;
+			
+			// aapt resource value: 0x7F0801EC
+			public const int x_left = 2131231212;
+			
+			// aapt resource value: 0x7F0801ED
+			public const int x_right = 2131231213;
+			
+			// aapt resource value: 0x7F0801EE
+			public const int zero_corner_chip = 2131231214;
+			
 			static Id()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -23581,6 +23713,30 @@ namespace Sights_Of_Moscow.Droid
 			
 			// aapt resource value: 0x7F090014
 			public const int mtrl_calendar_header_orientation = 2131296276;
+			
+			// aapt resource value: 0x7F090015
+			public const int mtrl_calendar_selection_text_lines = 2131296277;
+			
+			// aapt resource value: 0x7F090016
+			public const int mtrl_calendar_year_selector_span = 2131296278;
+			
+			// aapt resource value: 0x7F090017
+			public const int mtrl_card_anim_delay_ms = 2131296279;
+			
+			// aapt resource value: 0x7F090018
+			public const int mtrl_card_anim_duration_ms = 2131296280;
+			
+			// aapt resource value: 0x7F090019
+			public const int mtrl_chip_anim_duration = 2131296281;
+			
+			// aapt resource value: 0x7F09001A
+			public const int mtrl_tab_indicator_anim_duration_ms = 2131296282;
+			
+			// aapt resource value: 0x7F09001B
+			public const int show_password_duration = 2131296283;
+			
+			// aapt resource value: 0x7F09001C
+			public const int status_bar_notification_info_maxnum = 2131296284;
 			
 			// aapt resource value: 0x7F090015
 			public const int mtrl_calendar_selection_text_lines = 2131296277;
@@ -23833,6 +23989,12 @@ namespace Sights_Of_Moscow.Droid
 			// aapt resource value: 0x7F0B003A
 			public const int material_clockface_view = 2131427386;
 			
+			// aapt resource value: 0x7F0B0039
+			public const int material_clockface_textview = 2131427385;
+			
+			// aapt resource value: 0x7F0B003A
+			public const int material_clockface_view = 2131427386;
+			
 			// aapt resource value: 0x7F0B0035
 			public const int material_clock_display = 2131427381;
 			
@@ -23895,6 +24057,9 @@ namespace Sights_Of_Moscow.Droid
 			
 			// aapt resource value: 0x7F0B004C
 			public const int mtrl_calendar_horizontal = 2131427404;
+			
+			// aapt resource value: 0x7F0B004F
+			public const int mtrl_calendar_months = 2131427407;
 			
 			// aapt resource value: 0x7F0B004D
 			public const int mtrl_calendar_month = 2131427405;
@@ -26015,6 +26180,9 @@ namespace Sights_Of_Moscow.Droid
 			// aapt resource value: 0x7F0F01B7
 			public const int Theme_AppCompat_Dialog_MinWidth = 2131689911;
 			
+			// aapt resource value: 0x7F0F01B7
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131689911;
+			
 			// aapt resource value: 0x7F0F01B9
 			public const int Theme_AppCompat_Empty = 2131689913;
 			
@@ -26849,6 +27017,153 @@ namespace Sights_Of_Moscow.Droid
 			// aapt resource value: 0x7F0F02FF
 			public const int XamarinFormsMaterialTheme = 2131690239;
 			
+			// aapt resource value: 0x7F0F02C7
+			public const int Widget_MaterialComponents_MaterialCalendar_Year = 2131690183;
+			
+			// aapt resource value: 0x7F0F02CA
+			public const int Widget_MaterialComponents_MaterialCalendar_YearNavigationButton = 2131690186;
+			
+			// aapt resource value: 0x7F0F02C8
+			public const int Widget_MaterialComponents_MaterialCalendar_Year_Selected = 2131690184;
+			
+			// aapt resource value: 0x7F0F02C9
+			public const int Widget_MaterialComponents_MaterialCalendar_Year_Today = 2131690185;
+			
+			// aapt resource value: 0x7F0F02CB
+			public const int Widget_MaterialComponents_NavigationRailView = 2131690187;
+			
+			// aapt resource value: 0x7F0F02CC
+			public const int Widget_MaterialComponents_NavigationRailView_Colored = 2131690188;
+			
+			// aapt resource value: 0x7F0F02CD
+			public const int Widget_MaterialComponents_NavigationRailView_Colored_Compact = 2131690189;
+			
+			// aapt resource value: 0x7F0F02CE
+			public const int Widget_MaterialComponents_NavigationRailView_Compact = 2131690190;
+			
+			// aapt resource value: 0x7F0F02CF
+			public const int Widget_MaterialComponents_NavigationRailView_PrimarySurface = 2131690191;
+			
+			// aapt resource value: 0x7F0F02D0
+			public const int Widget_MaterialComponents_NavigationView = 2131690192;
+			
+			// aapt resource value: 0x7F0F02D1
+			public const int Widget_MaterialComponents_PopupMenu = 2131690193;
+			
+			// aapt resource value: 0x7F0F02D2
+			public const int Widget_MaterialComponents_PopupMenu_ContextMenu = 2131690194;
+			
+			// aapt resource value: 0x7F0F02D3
+			public const int Widget_MaterialComponents_PopupMenu_ListPopupWindow = 2131690195;
+			
+			// aapt resource value: 0x7F0F02D4
+			public const int Widget_MaterialComponents_PopupMenu_Overflow = 2131690196;
+			
+			// aapt resource value: 0x7F0F02D5
+			public const int Widget_MaterialComponents_ProgressIndicator = 2131690197;
+			
+			// aapt resource value: 0x7F0F02D6
+			public const int Widget_MaterialComponents_ShapeableImageView = 2131690198;
+			
+			// aapt resource value: 0x7F0F02D7
+			public const int Widget_MaterialComponents_Slider = 2131690199;
+			
+			// aapt resource value: 0x7F0F02D8
+			public const int Widget_MaterialComponents_Snackbar = 2131690200;
+			
+			// aapt resource value: 0x7F0F02D9
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131690201;
+			
+			// aapt resource value: 0x7F0F02DA
+			public const int Widget_MaterialComponents_Snackbar_TextView = 2131690202;
+			
+			// aapt resource value: 0x7F0F02DB
+			public const int Widget_MaterialComponents_TabLayout = 2131690203;
+			
+			// aapt resource value: 0x7F0F02DC
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131690204;
+			
+			// aapt resource value: 0x7F0F02DD
+			public const int Widget_MaterialComponents_TabLayout_PrimarySurface = 2131690205;
+			
+			// aapt resource value: 0x7F0F02DE
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131690206;
+			
+			// aapt resource value: 0x7F0F02DF
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131690207;
+			
+			// aapt resource value: 0x7F0F02E0
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131690208;
+			
+			// aapt resource value: 0x7F0F02E1
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131690209;
+			
+			// aapt resource value: 0x7F0F02E2
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131690210;
+			
+			// aapt resource value: 0x7F0F02E3
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131690211;
+			
+			// aapt resource value: 0x7F0F02E4
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = 2131690212;
+			
+			// aapt resource value: 0x7F0F02E5
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = 2131690213;
+			
+			// aapt resource value: 0x7F0F02E6
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131690214;
+			
+			// aapt resource value: 0x7F0F02E7
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131690215;
+			
+			// aapt resource value: 0x7F0F02E8
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = 2131690216;
+			
+			// aapt resource value: 0x7F0F02E9
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = 2131690217;
+			
+			// aapt resource value: 0x7F0F02EA
+			public const int Widget_MaterialComponents_TextView = 2131690218;
+			
+			// aapt resource value: 0x7F0F02EB
+			public const int Widget_MaterialComponents_TimePicker = 2131690219;
+			
+			// aapt resource value: 0x7F0F02EC
+			public const int Widget_MaterialComponents_TimePicker_Button = 2131690220;
+			
+			// aapt resource value: 0x7F0F02ED
+			public const int Widget_MaterialComponents_TimePicker_Clock = 2131690221;
+			
+			// aapt resource value: 0x7F0F02EE
+			public const int Widget_MaterialComponents_TimePicker_Display = 2131690222;
+			
+			// aapt resource value: 0x7F0F02EF
+			public const int Widget_MaterialComponents_TimePicker_Display_TextInputEditText = 2131690223;
+			
+			// aapt resource value: 0x7F0F02F0
+			public const int Widget_MaterialComponents_TimePicker_ImageButton = 2131690224;
+			
+			// aapt resource value: 0x7F0F02F1
+			public const int Widget_MaterialComponents_TimePicker_ImageButton_ShapeAppearance = 2131690225;
+			
+			// aapt resource value: 0x7F0F02F2
+			public const int Widget_MaterialComponents_Toolbar = 2131690226;
+			
+			// aapt resource value: 0x7F0F02F3
+			public const int Widget_MaterialComponents_Toolbar_Primary = 2131690227;
+			
+			// aapt resource value: 0x7F0F02F4
+			public const int Widget_MaterialComponents_Toolbar_PrimarySurface = 2131690228;
+			
+			// aapt resource value: 0x7F0F02F5
+			public const int Widget_MaterialComponents_Toolbar_Surface = 2131690229;
+			
+			// aapt resource value: 0x7F0F02F6
+			public const int Widget_MaterialComponents_Tooltip = 2131690230;
+			
+			// aapt resource value: 0x7F0F02F7
+			public const int Widget_Support_CoordinatorLayout = 2131690231;
+			
 			static Style()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -27614,6 +27929,12 @@ namespace Sights_Of_Moscow.Droid
 			// aapt resource value: 38
 			public const int AppCompatTheme_alertDialogTheme = 38;
 			
+			// aapt resource value: 37
+			public const int AppCompatTheme_alertDialogStyle = 37;
+			
+			// aapt resource value: 38
+			public const int AppCompatTheme_alertDialogTheme = 38;
+			
 			// aapt resource value: 1
 			public const int AppCompatTheme_android_windowAnimationStyle = 1;
 			
@@ -27703,6 +28024,9 @@ namespace Sights_Of_Moscow.Droid
 			
 			// aapt resource value: 67
 			public const int AppCompatTheme_dropdownListPreferredItemHeight = 67;
+			
+			// aapt resource value: 66
+			public const int AppCompatTheme_dropDownListViewStyle = 66;
 			
 			// aapt resource value: 66
 			public const int AppCompatTheme_dropDownListViewStyle = 66;

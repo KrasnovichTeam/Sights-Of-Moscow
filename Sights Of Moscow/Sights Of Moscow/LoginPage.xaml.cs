@@ -22,9 +22,30 @@ namespace Sights_Of_Moscow
             Navigation.PushAsync(new RegistrationPage(), true);
         }
 
-        private void LoginBtn_Clicked(object sender, EventArgs e)
+        private async void LoginBtn_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new MenuPage(), true);
+            var lst = App.Db.GetClients();
+            bool state = false;
+
+            foreach (var item in lst)
+            {
+                if (LoginEntry != null && PasswordEntry != null)
+                {
+                    await DisplayAlert("Уведомление", "Не правилный логин или пароль", "Ok");
+                }
+                else if (item.Nickname == LoginEntry.Text)
+                {
+
+                    if (item.Password == PasswordEntry.Text && state == false)
+                    {
+                        state = true;
+                        await Navigation.PushModalAsync(new NavigationPage(new MenuPage()));
+                    }
+                }
+            }
+
+            if (!state)
+                await DisplayAlert("Уведомление", "Не правилный логин или пароль", "Ok");
         }
     }
 }
