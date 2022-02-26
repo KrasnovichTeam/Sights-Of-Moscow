@@ -16,5 +16,9 @@ namespace Sights_Of_Moscow
         {
             InitializeComponent();
         }
+        private void IconLoginImg_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SupTheDeveloper(), true);
+        }
     }
 }

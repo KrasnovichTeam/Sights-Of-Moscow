@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sights_Of_Moscow.TabbedPages.RedSquare"
+            NavigationPage.HasNavigationBar="True"
+            BackgroundColor="White"
+            BarTextColor="Black"
+            Visual="Material">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black" Text="Красная Площадь" FontSize="Large" HorizontalTextAlignment="Center" Margin="0,0,60,0"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage Title="History">
+        <ScrollView>
+            <StackLayout Spacing="-30">
+                <Label FontSize="15" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Красная площадь — главная площадь Москвы, расположена между Московским Кремлём (к западу) и Китай-городом (на восток). Выходит, к берегу Москвы-реки через пологий Васильевский спуск. Площадь тянется вдоль северо-восточной стены Кремля, от Кремлёвского проезда и проезда Воскресенские Ворота до Васильевского спуска, выходящего к Кремлёвской набережной. На восток от Красной площади отходят Никольская улица, Ильинка и Варварка. Вдоль западной стороны площади расположен Московский Кремль, вдоль восточной — Верхние торговые ряды и Средние торговые ряды. Входит в единый ансамбль с Московским Кремлём, однако исторически является частью Китай-города."></Label>
+                <Label FontSize="15" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="На Красной площади расположены Лобное место, памятник Минину и Пожарскому, Мавзолей Владимира Ленина, некрополь у Кремлёвской стены. В северной части площади находятся Исторический музей и Казанский собор, в южной — Покровский собор. Архитектурный ансамбль находится под охраной ЮНЕСКО как памятник Всемирного наследия."></Label>
+                <ImageButton
+                    VerticalOptions="End"
+            Margin="-40,80,120,0"
+            x:Name="a"
+            Aspect="AspectFit"
+            Scale="2"
+            Source="watermark.jpg"
+            Clicked="IconLoginImg_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Photos">
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Orientation="Vertical">
+                    <Image 
+                x:Name="MP"
+                        Aspect="AspectFit"
+                WidthRequest="300"
+                HeightRequest="300"
+                Scale="0.8"
+                Source="RedSquare.jpg"/>
+                    <Label FontAttributes="Bold" Text="EXPLANATION FOR THE PHOTO" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center"></Label>
+                </StackLayout>
+                <ImageButton
+                    VerticalOptions="End"
+            Margin="-40,80,120,0"
+            x:Name="b"
+            Aspect="AspectFit"
+            Scale="2"
+            Source="watermark.jpg"
+            Clicked="IconLoginImg_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Address">
+        <StackLayout Spacing="60" Margin="30,30,30,0">
+            <Frame BorderColor="Black" Padding="0">
+                <Entry x:Name="Sity" TextColor="Black" IsEnabled="False" Placeholder="SITY" Text="MOSCOW" Background="White" />
+            </Frame>
+            <Frame BorderColor="Black" Padding="0">
+                <Entry x:Name="Street" TextColor="Black" IsEnabled="False"  Placeholder="STREET" Text="RED SQUARE" Background="White"/>
+            </Frame>
+            <Frame BorderColor="Black" Padding="0">
+                <Entry x:Name="Subway" TextColor="Black" IsEnabled="False" Placeholder="SUBWAY" Text="REVOLUTION SQUARE" Background="White"/>
+            </Frame>
+            <ImageButton
+                VerticalOptions="End"
+            Margin="-40,80,120,0"
+            x:Name="c"
+            Aspect="AspectFit"
+            Scale="2"
+            Source="watermark.jpg"
+            Clicked="IconLoginImg_Clicked"/>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

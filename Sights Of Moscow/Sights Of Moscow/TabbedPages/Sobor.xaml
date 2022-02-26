@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sights_Of_Moscow.Sobor"
+            NavigationPage.HasNavigationBar="True"
+            BackgroundColor="White"
+            BarTextColor="Black"
+            Visual="Material">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black" Text="Собор Василия Блаженного" FontSize="Large" HorizontalTextAlignment="Center" Margin="0,0,60,0"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage Title="History">
+        <ScrollView>
+            <StackLayout Spacing="-30">
+                <Label FontSize="15" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Собор Покрова́ Пресвятой Богородицы, что на Рву (Покровский собор, собор Покрова́ на Рву, разговорное — собор (храм) Василия Блаженного) — православный храм на Красной площади в Москве, памятник русской архитектуры. Строительство собора велось с 1555 по 1561 год."></Label>
+                <Label FontSize="15" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Собор объединяет одиннадцать церквей (приделов), часть из которых освящена в честь святых, дни памяти которых пришлись на решающие бои за Казань. Центральная церковь сооружена в честь Покрова Богородицы, вокруг которой группируются отдельные церкви в честь: Святой Троицы, Входа Господня в Иерусалим, Николы Великорецкого, Трёх Патриархов: Александра, Иоанна и Павла Нового, Григория Армянского, Киприанов и Иустины, Александра Свирского и Варлаама Ходынского, размещённые на одном основании-подклете, а также придел в честь Василия Блаженного, по имени которого храм получил второе, более известное название, и церковь Иоанна Блаженного, вновь открытая после длительного запустения в ноябре 2018 года."></Label>
+                <ImageButton
+            VerticalOptions="End"
+            Margin="-40,80,120,0"
+            x:Name="a"
+            Aspect="AspectFit"
+            Scale="2"
+            Source="watermark.jpg"
+            Clicked="IconLoginImg_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Photos">
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Orientation="Vertical">
+                    <Image 
+                x:Name="MP"
+                        Aspect="AspectFit"
+                WidthRequest="300"
+                HeightRequest="300"
+                Scale="0.8"
+                Source="Sobor.jpg"/>
+                    <Label FontAttributes="Bold" Text="EXPLANATION FOR THE PHOTO" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center"></Label>
+                </StackLayout>
+                <ImageButton
+            VerticalOptions="End"
+            Margin="-40,80,120,0"
+            x:Name="b"
+            Aspect="AspectFit"
+            Scale="2"
+            Source="watermark.jpg"
+            Clicked="IconLoginImg_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Address">
+        <StackLayout Spacing="60" Margin="30,30,30,0">
+            <Frame BorderColor="Black" Padding="0">
+                <Entry x:Name="Sity" TextColor="Black" IsEnabled="False" Placeholder="SITY" Text="MOSCOW" Background="White" />
+            </Frame>
+            <Frame BorderColor="Black" Padding="0">
+                <Entry x:Name="Street" TextColor="Black" IsEnabled="False"  Placeholder="STREET" Text="RED SQUARE" Background="White"/>
+            </Frame>
+            <Frame BorderColor="Black" Padding="0">
+                <Entry x:Name="Subway" TextColor="Black" IsEnabled="False" Placeholder="SUBWAY" Text="REVOLUTION SQUARE" Background="White"/>
+            </Frame>
+            <ImageButton
+            VerticalOptions="End"
+            Margin="-40,80,120,0"
+            x:Name="c"
+            Aspect="AspectFit"
+            Scale="2"
+            Source="watermark.jpg"
+            Clicked="IconLoginImg_Clicked"/>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

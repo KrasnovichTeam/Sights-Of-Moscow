@@ -6,11 +6,24 @@
             BarTextColor="Black"
             
             x:Class="Sights_Of_Moscow.OsnovaPhoto" Visual="Material">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black" Text="Памятник Минину и Пожарскому" FontSize="Large" HorizontalTextAlignment="Center" Margin="0,0,60,0"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
     <ContentPage Title="History">
         <ScrollView>
             <StackLayout Spacing="-30">
                 <Label FontSize="15" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Cкульптурный монумент, посвящённый предводителям Второго народного ополчения 1612 года, а также окончанию Смутного времени и изгнанию польских интервентов из России. Является первым крупным скульптурным памятником в Москве. Был создан по проекту архитектора Ивана Мартоса в 1818 году."></Label>
                 <Label FontSize="15" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Памятник выполнен в стиле классицизма, что объясняется монументальностью форм и плавностью объёмов]. Монумент состоит из бронзовой скульптурной группы и гранитного пьедестала с бронзовыми барельефами. Пьедестал украшен барельефами с двух сторон и надписью: «ГРАЖДАНИНУ МИНИНУ И КНЯЗЮ ПОЖАРСКОМУ БЛАГОДАРНАЯ РОССІЯ. ЛѢТА 1818». Высота памятника (без террасы) составляет примерно 8,3 м, по другим данным — 8,6 м и 8,8 м."></Label>
+                <ImageButton
+                    VerticalOptions="End"
+            Margin="-40,80,120,0"
+            x:Name="a"
+            Aspect="AspectFit"
+            Scale="2"
+            Source="watermark.jpg"
+            Clicked="IconLoginImg_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage>
@@ -26,7 +39,7 @@
                 Scale="0.8"
                 Source="Minin_Pojarskiy.jpg"/>
                     <Label FontAttributes="Bold" Text="EXPLANATION FOR THE PHOTO" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center"></Label>
-                        <Image
+                    <Image
                 x:Name="MP2"
                             Aspect="AspectFit"
                 WidthRequest="300"
@@ -34,6 +47,14 @@
                 Scale="0.8"
                 Source="Minin_Pojarskiy2.jpg"/>
                 </StackLayout>
+                <ImageButton
+                    VerticalOptions="End"
+            Margin="-40,80,120,0"
+            x:Name="b"
+            Aspect="AspectFit"
+            Scale="2"
+            Source="watermark.jpg"
+            Clicked="IconLoginImg_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage>
@@ -43,11 +64,19 @@
                 <Entry x:Name="Sity" TextColor="Black" IsEnabled="False" Placeholder="SITY" Text="MOSCOW" Background="White" />
             </Frame>
             <Frame BorderColor="Black" Padding="0">
-            <Entry x:Name="Street" TextColor="Black" IsEnabled="False" Text="RED SQUARE" Placeholder="STREET" Background="White"/>
+                <Entry x:Name="Street" TextColor="Black" IsEnabled="False" Text="RED SQUARE" Placeholder="STREET" Background="White"/>
             </Frame>
             <Frame BorderColor="Black" Padding="0">
-            <Entry x:Name="Subway" TextColor="Black" IsEnabled="False" Text="REVOLUTION SQUARE" Placeholder="SUBWAY" Background="White"/>
+                <Entry x:Name="Subway" TextColor="Black" IsEnabled="False" Text="REVOLUTION SQUARE" Placeholder="SUBWAY" Background="White"/>
             </Frame>
+            <ImageButton
+                VerticalOptions="End"
+            Margin="-40,80,120,0"
+            x:Name="c"
+            Aspect="AspectFit"
+            Scale="2"
+            Source="watermark.jpg"
+            Clicked="IconLoginImg_Clicked"/>
         </StackLayout>
     </ContentPage>
 </TabbedPage>
