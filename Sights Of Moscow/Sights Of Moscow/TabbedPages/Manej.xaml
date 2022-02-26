@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sights_Of_Moscow.TabbedPages.Manej"
+            NavigationPage.HasNavigationBar="True"
+            BackgroundColor="White"
+            BarTextColor="Black"
+            Visual="Material">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black" Text="Останкинская телебашня" FontSize="Large" HorizontalTextAlignment="Center" Margin="0,0,60,0"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage Title="History">
+        <ScrollView>
+            <StackLayout Spacing="-30">
+                <Label FontSize="15" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Мане́жная пло́щадь (в 1967—1990 годах — пло́щадь 50-ле́тия Октября́) — одна из самых больших площадей в центре Москвы, расположена рядом с Кремлём и Александровским садом. Возле площади находится здание московского Манежа. Создана в 1931—1938 годах при реализации генерального плана реконструкции Москвы и включает в себя бывшие Моисеевскую площадь, Обжорный переулок, Лоскутный переулок и тупик, прилегающие части Большой Никитской, Манежной, Моховой и Тверской улиц."></Label>
+                <ImageButton
+            VerticalOptions="End"
+            Margin="-40,80,120,0"
+            x:Name="a"
+            Aspect="AspectFit"
+            Scale="2"
+            Source="watermark.jpg"
+            Clicked="IconLoginImg_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Photos">
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Orientation="Vertical">
+                    <Image 
+                x:Name="MP"
+                        Aspect="AspectFit"
+                WidthRequest="300"
+                HeightRequest="300"
+                Scale="0.8"
+                Source="ManejSquare.jpg"/>
+                    <Label FontAttributes="Bold" Text="EXPLANATION FOR THE PHOTO" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center"></Label>
+                </StackLayout>
+                <ImageButton
+            VerticalOptions="End"
+            Margin="-40,80,120,0"
+            x:Name="b"
+            Aspect="AspectFit"
+            Scale="2"
+            Source="watermark.jpg"
+            Clicked="IconLoginImg_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Address">
+        <StackLayout Spacing="60" Margin="30,30,30,0">
+            <Frame BorderColor="Black" Padding="0">
+                <Entry x:Name="Sity" TextColor="Black" IsEnabled="False" Placeholder="SITY" Text="MOSCOW" Background="White" />
+            </Frame>
+            <Frame BorderColor="Black" Padding="0">
+                <Entry x:Name="Street" TextColor="Black" IsEnabled="False"  Placeholder="STREET" Text="Manej" Background="White"/>
+            </Frame>
+            <Frame BorderColor="Black" Padding="0">
+                <Entry x:Name="Subway" TextColor="Black" IsEnabled="False" Placeholder="SUBWAY" Text="Manej SQUARE" Background="White"/>
+            </Frame>
+            <ImageButton
+            VerticalOptions="End"
+            Margin="-40,80,120,0"
+            x:Name="c"
+            Aspect="AspectFit"
+            Scale="2"
+            Source="watermark.jpg"
+            Clicked="IconLoginImg_Clicked"/>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

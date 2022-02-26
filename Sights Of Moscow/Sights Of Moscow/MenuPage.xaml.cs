@@ -33,5 +33,25 @@ namespace Sights_Of_Moscow
         {
             await Navigation.PushAsync(new Chram(), true);
         }
+        async void OpenMoscowCity(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MoscowCity(), true);
+        }
+        async void OpenOstankino(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Ostankino(), true);
+        }
+        async void OpenMoscowRiver(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MoscowRiver(), true);
+        }
+        async void OpenManej(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Manej(), true);
+        }
+        private void IconLoginImg_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SupTheDeveloper(), true);
+        }
     }
 }

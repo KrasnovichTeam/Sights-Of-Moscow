@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sights_Of_Moscow.TabbedPages.MoscowRiver"
+            NavigationPage.HasNavigationBar="True"
+            BackgroundColor="White"
+            BarTextColor="Black"
+            Visual="Material">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black" Text="Москва-Река" FontSize="Large" HorizontalTextAlignment="Center" Margin="0,0,60,0"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage Title="History">
+        <ScrollView>
+            <StackLayout Spacing="-30">
+                <Label FontSize="15" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Москва́ (обычно Москва́-река́, в московском произношении с XIX века — «Москва река», первая часть в разговорной речи часто не склоняется: на Москва́-реке[7]) — является средней рекой в Центральной России, в Московской области, Москве и, на небольшом протяжении, в Смоленской области, левый приток Оки (бассейн Волги)."></Label>
+                <Label FontSize="15" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Длина в пределах Московской области473 км, традиционно упоминается также 502 км (см. неоднозначность с истоком  ), площадь бассейна — 17 600 км². Река начинается на склоне Смоленско-Московской возвышенности и впадает в Оку на территории Коломны. Общее падение от истока до устья составляет 155,5 м. Крупнейшие притоки — Руза (левый), Пахра (правый) и Истра (левый). Воды реки широко используются для водоснабжения города Москвы."></Label>
+                <ImageButton
+            VerticalOptions="End"
+            Margin="-40,80,120,0"
+            x:Name="a"
+            Aspect="AspectFit"
+            Scale="2"
+            Source="watermark.jpg"
+            Clicked="IconLoginImg_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Photos">
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Orientation="Vertical">
+                    <Image 
+                x:Name="MP"
+                        Aspect="AspectFit"
+                WidthRequest="300"
+                HeightRequest="300"
+                Scale="0.8"
+                Source="MoscowRiver.jpeg"/>
+                    <Label FontAttributes="Bold" Text="EXPLANATION FOR THE PHOTO" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center"></Label>
+                </StackLayout>
+                <ImageButton
+            VerticalOptions="End"
+            Margin="-40,80,120,0"
+            x:Name="b"
+            Aspect="AspectFit"
+            Scale="2"
+            Source="watermark.jpg"
+            Clicked="IconLoginImg_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Address">
+        <StackLayout Spacing="60" Margin="30,30,30,0">
+            <Frame BorderColor="Black" Padding="0">
+                <Entry x:Name="Sity" TextColor="Black" IsEnabled="False" Placeholder="SITY" Text="MOSCOW" Background="White" />
+            </Frame>
+            <Frame BorderColor="Black" Padding="0">
+                <Entry x:Name="Street" TextColor="Black" IsEnabled="False"  Placeholder="STREET" Text="Moscow" Background="White"/>
+            </Frame>
+            <Frame BorderColor="Black" Padding="0">
+                <Entry x:Name="Subway" TextColor="Black" IsEnabled="False" Placeholder="SUBWAY" Text="Moscow SQUARE" Background="White"/>
+            </Frame>
+            <ImageButton
+            VerticalOptions="End"
+            Margin="-40,80,120,0"
+            x:Name="c"
+            Aspect="AspectFit"
+            Scale="2"
+            Source="watermark.jpg"
+            Clicked="IconLoginImg_Clicked"/>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Sights_Of_Moscow.MenuPage" 
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
@@ -18,10 +19,34 @@
                     <ImageButton Source="RedSquare.jpg" WidthRequest="150" HeightRequest="150" BackgroundColor="White" Margin="20,0,0,0" Clicked="OpenRedSquare" BorderColor="#000000" ></ImageButton>
                     <ImageButton Source="Chram.jpg" WidthRequest="150" HeightRequest="150" BackgroundColor="White" Clicked="OpenChram" BorderColor="#000000" ></ImageButton>
                 </StackLayout>
-                <StackLayout Margin="80,0,0,0" Orientation="Horizontal" Spacing="70">
+                <StackLayout Margin="40,0,0,0" Orientation="Horizontal" Spacing="70">
                     <Label  WidthRequest="200" Text="Красная площадь"/>
                     <Label  WidthRequest="200" Text="Храм Христа"/>
                 </StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="50">
+                    <ImageButton Source="MoscowCity.jpg" WidthRequest="150" HeightRequest="150" BackgroundColor="White" Margin="20,0,0,0" Clicked="OpenMoscowCity" BorderColor="#000000" ></ImageButton>
+                    <ImageButton Source="OstankinoTower.jpg" WidthRequest="150" HeightRequest="150" BackgroundColor="White" Clicked="OpenOstankino" BorderColor="#000000" ></ImageButton>
+                </StackLayout>
+                <StackLayout Margin="60,0,0,0" Orientation="Horizontal" Spacing="70">
+                    <Label  WidthRequest="200" Text="Москва-Сити"/>
+                    <Label  WidthRequest="200" Text="Останкинская телебашня"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="50">
+                    <ImageButton Source="MoscowRiver.jpeg" WidthRequest="150" HeightRequest="150" BackgroundColor="White" Margin="20,0,0,0" Clicked="OpenMoscowRiver" BorderColor="#000000" ></ImageButton>
+                    <ImageButton Source="ManejSquare.jpg" WidthRequest="150" HeightRequest="150" BackgroundColor="White" Clicked="OpenManej" BorderColor="#000000" ></ImageButton>
+                </StackLayout>
+                <StackLayout Margin="60,0,0,0" Orientation="Horizontal" Spacing="70">
+                    <Label  WidthRequest="200" Text="Москва-река"/>
+                    <Label  WidthRequest="200" Text="Манежная Площадь"/>
+                </StackLayout>
+                <ImageButton
+            VerticalOptions="End"
+            Margin="-40,80,120,0"
+            x:Name="IconLoginImg"
+            Aspect="AspectFit"
+            Scale="2"
+            Source="watermark.jpg"
+            Clicked="IconLoginImg_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
