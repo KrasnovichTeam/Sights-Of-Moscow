@@ -16,7 +16,7 @@
             <Frame BorderColor="#000">
                 <Entry
                     FontSize="25"
-                    x:Name="NicknameEntry"
+                    x:Name="LoginEntry"
                     Margin="-10,-20"
                     VerticalOptions="CenterAndExpand" />
             </Frame>

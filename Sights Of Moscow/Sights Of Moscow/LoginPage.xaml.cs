@@ -12,6 +12,7 @@ namespace Sights_Of_Moscow
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
+        public static Client client = new Client();
         public LoginPage()
         {
             InitializeComponent();
@@ -27,21 +28,22 @@ namespace Sights_Of_Moscow
 
             foreach (var item in lst)
             {
-                    if (LoginEntry == null && PasswordEntry == null)
+                if (LoginEntry == null && PasswordEntry == null)
+                {
+                    await DisplayAlert("Уведомление", "Не правилный логин или пароль", "Ok");
+                }
+                else if (item.Nickname == LoginEntry.Text)
+                {
+                    if (item.Password == PasswordEntry.Text && state == false)
                     {
-                        await DisplayAlert("Уведомление", "Не правилный логин или пароль", "Ok");
+                        state = true;
+                        await Navigation.PushModalAsync(new NavigationPage(new MenuPage()));
+                        await DisplayAlert("Привет Пользователь", $"ваш никнейм - {LoginEntry.Text}", "ОК");
                     }
-                    else if (item.Nickname == LoginEntry.Text)
-                    {
-                        if (item.Password == PasswordEntry.Text && state == false)
-                        {
-                            state = true;
-                            await Navigation.PushModalAsync(new NavigationPage(new MenuPage()));
-                        }
-                    }
-            }
+                }
+            }            
             if (!state)
-                await DisplayAlert("Уведомление", "Не правилный логин или пароль", "Ok");
+            await DisplayAlert("Уведомление", "Не правилный логин или пароль", "Ok");
         }
     }
 }

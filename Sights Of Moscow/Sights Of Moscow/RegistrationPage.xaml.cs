@@ -28,10 +28,10 @@ namespace Sights_Of_Moscow
         {
             try
             {
-                if (NicknameEntry != null && EmailEntry != null && PasswordEntry != null)
+                if (LoginEntry != null && EmailEntry != null && PasswordEntry != null)
                 {
-                    App.Db.SaveClient(new Client(NicknameEntry.Text, EmailEntry.Text, PasswordEntry.Text));
-                    await Navigation.PushModalAsync(new NavigationPage(new MenuPage()));
+                    App.Db.SaveClient(new Client(LoginEntry.Text, EmailEntry.Text, PasswordEntry.Text));
+                    await Navigation.PushModalAsync(new NavigationPage(new LoginPage()));
                 }
                 else 
                 {
