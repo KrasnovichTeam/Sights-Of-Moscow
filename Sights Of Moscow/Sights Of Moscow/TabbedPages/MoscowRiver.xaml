@@ -14,16 +14,9 @@
     <ContentPage Title="History">
         <ScrollView>
             <StackLayout Spacing="-30">
-                <Label FontSize="15" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Москва́ (обычно Москва́-река́, в московском произношении с XIX века — «Москва река», первая часть в разговорной речи часто не склоняется: на Москва́-реке[7]) — является средней рекой в Центральной России, в Московской области, Москве и, на небольшом протяжении, в Смоленской области, левый приток Оки (бассейн Волги)."></Label>
-                <Label FontSize="15" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Длина в пределах Московской области473 км, традиционно упоминается также 502 км (см. неоднозначность с истоком  ), площадь бассейна — 17 600 км². Река начинается на склоне Смоленско-Московской возвышенности и впадает в Оку на территории Коломны. Общее падение от истока до устья составляет 155,5 м. Крупнейшие притоки — Руза (левый), Пахра (правый) и Истра (левый). Воды реки широко используются для водоснабжения города Москвы."></Label>
-                <ImageButton
-            VerticalOptions="End"
-            Margin="-40,80,120,0"
-            x:Name="a"
-            Aspect="AspectFit"
-            Scale="2"
-            Source="watermark.jpg"
-            Clicked="IconLoginImg_Clicked"/>
+                <Label FontSize="25" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Москва́ (обычно Москва́-река́, в московском произношении с XIX века — «Москва река», первая часть в разговорной речи часто не склоняется: на Москва́-реке[7]) — является средней рекой в Центральной России, в Московской области, Москве и, на небольшом протяжении, в Смоленской области, левый приток Оки (бассейн Волги)."></Label>
+                <Label FontSize="25" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Длина в пределах Московской области473 км, традиционно упоминается также 502 км (см. неоднозначность с истоком  ), площадь бассейна — 17 600 км². Река начинается на склоне Смоленско-Московской возвышенности и впадает в Оку на территории Коломны. Общее падение от истока до устья составляет 155,5 м. Крупнейшие притоки — Руза (левый), Пахра (правый) и Истра (левый). Воды реки широко используются для водоснабжения города Москвы."></Label>
+                
             </StackLayout>
         </ScrollView>
     </ContentPage>
@@ -39,15 +32,15 @@
                 Scale="0.8"
                 Source="MoscowRiver.jpeg"/>
                     <Label FontAttributes="Bold" Text="EXPLANATION FOR THE PHOTO" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center"></Label>
+                    <Image 
+                x:Name="MP2"
+                        Aspect="AspectFit"
+                WidthRequest="300"
+                HeightRequest="300"
+                Scale="0.8"
+                Source="MoscowRiver2.jpg"/>
                 </StackLayout>
-                <ImageButton
-            VerticalOptions="End"
-            Margin="-40,80,120,0"
-            x:Name="b"
-            Aspect="AspectFit"
-            Scale="2"
-            Source="watermark.jpg"
-            Clicked="IconLoginImg_Clicked"/>
+                
             </StackLayout>
         </ScrollView>
     </ContentPage>
@@ -62,14 +55,7 @@
             <Frame BorderColor="Black" Padding="0">
                 <Entry x:Name="Subway" TextColor="Black" IsEnabled="False" Placeholder="SUBWAY" Text="Moscow SQUARE" Background="White"/>
             </Frame>
-            <ImageButton
-            VerticalOptions="End"
-            Margin="-40,80,120,0"
-            x:Name="c"
-            Aspect="AspectFit"
-            Scale="2"
-            Source="watermark.jpg"
-            Clicked="IconLoginImg_Clicked"/>
+            
         </StackLayout>
     </ContentPage>
 </TabbedPage>

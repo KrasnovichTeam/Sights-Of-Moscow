@@ -37,7 +37,9 @@ namespace Sights_Of_Moscow
                     if (item.Password == PasswordEntry.Text && state == false)
                     {
                         state = true;
-                        await Navigation.PushModalAsync(new NavigationPage(new MenuPage()));
+                        var a = new NavigationPage(new MenuPage());
+                        a.BarTextColor = Color.Black;
+                        await Navigation.PushModalAsync(a);
                         await DisplayAlert("Привет Пользователь", $"ваш никнейм - {LoginEntry.Text}", "ОК");
                     }
                 }

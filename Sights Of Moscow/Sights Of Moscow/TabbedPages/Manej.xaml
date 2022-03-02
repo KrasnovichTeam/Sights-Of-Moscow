@@ -14,15 +14,8 @@
     <ContentPage Title="History">
         <ScrollView>
             <StackLayout Spacing="-30">
-                <Label FontSize="15" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Мане́жная пло́щадь (в 1967—1990 годах — пло́щадь 50-ле́тия Октября́) — одна из самых больших площадей в центре Москвы, расположена рядом с Кремлём и Александровским садом. Возле площади находится здание московского Манежа. Создана в 1931—1938 годах при реализации генерального плана реконструкции Москвы и включает в себя бывшие Моисеевскую площадь, Обжорный переулок, Лоскутный переулок и тупик, прилегающие части Большой Никитской, Манежной, Моховой и Тверской улиц."></Label>
-                <ImageButton
-            VerticalOptions="End"
-            Margin="-40,80,120,0"
-            x:Name="a"
-            Aspect="AspectFit"
-            Scale="2"
-            Source="watermark.jpg"
-            Clicked="IconLoginImg_Clicked"/>
+                <Label FontSize="25" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Мане́жная пло́щадь (в 1967—1990 годах — пло́щадь 50-ле́тия Октября́) — одна из самых больших площадей в центре Москвы, расположена рядом с Кремлём и Александровским садом. Возле площади находится здание московского Манежа. Создана в 1931—1938 годах при реализации генерального плана реконструкции Москвы и включает в себя бывшие Моисеевскую площадь, Обжорный переулок, Лоскутный переулок и тупик, прилегающие части Большой Никитской, Манежной, Моховой и Тверской улиц."></Label>
+
             </StackLayout>
         </ScrollView>
     </ContentPage>
@@ -38,15 +31,15 @@
                 Scale="0.8"
                 Source="ManejSquare.jpg"/>
                     <Label FontAttributes="Bold" Text="EXPLANATION FOR THE PHOTO" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center"></Label>
+                    <Image 
+                x:Name="MP2"
+                        Aspect="AspectFit"
+                WidthRequest="300"
+                HeightRequest="300"
+                Scale="0.8"
+                Source="Manej2.jpg"/>
                 </StackLayout>
-                <ImageButton
-            VerticalOptions="End"
-            Margin="-40,80,120,0"
-            x:Name="b"
-            Aspect="AspectFit"
-            Scale="2"
-            Source="watermark.jpg"
-            Clicked="IconLoginImg_Clicked"/>
+                
             </StackLayout>
         </ScrollView>
     </ContentPage>
@@ -61,14 +54,7 @@
             <Frame BorderColor="Black" Padding="0">
                 <Entry x:Name="Subway" TextColor="Black" IsEnabled="False" Placeholder="SUBWAY" Text="Manej SQUARE" Background="White"/>
             </Frame>
-            <ImageButton
-            VerticalOptions="End"
-            Margin="-40,80,120,0"
-            x:Name="c"
-            Aspect="AspectFit"
-            Scale="2"
-            Source="watermark.jpg"
-            Clicked="IconLoginImg_Clicked"/>
+            
         </StackLayout>
     </ContentPage>
 </TabbedPage>

@@ -11,7 +11,7 @@
                     <ImageButton Source="Minin_Pojarskiy.jpg"  WidthRequest="150" HeightRequest="150" BackgroundColor="White" Clicked="OpenMinin" BorderColor="#000000" ></ImageButton>
                     <ImageButton Source="Sobor.jpg" WidthRequest="150" HeightRequest="150"  Clicked="OpenSobor" BackgroundColor="White" BorderColor="#000000" ></ImageButton>
                 </StackLayout>
-                <StackLayout Margin="80,0,0,0" Orientation="Horizontal" Spacing="70">
+                <StackLayout Margin="60,0,0,0" Orientation="Horizontal" Spacing="110">
                     <Label  WidthRequest="200" Text="Памятник"/>
                     <Label  WidthRequest="200" Text="Собор"/>
                 </StackLayout>
@@ -19,7 +19,7 @@
                     <ImageButton Source="RedSquare.jpg" WidthRequest="150" HeightRequest="150" BackgroundColor="White" Margin="20,0,0,0" Clicked="OpenRedSquare" BorderColor="#000000" ></ImageButton>
                     <ImageButton Source="Chram.jpg" WidthRequest="150" HeightRequest="150" BackgroundColor="White" Clicked="OpenChram" BorderColor="#000000" ></ImageButton>
                 </StackLayout>
-                <StackLayout Margin="40,0,0,0" Orientation="Horizontal" Spacing="70">
+                <StackLayout Margin="40,0,0,0" Orientation="Horizontal" Spacing="90">
                     <Label  WidthRequest="200" Text="Красная площадь"/>
                     <Label  WidthRequest="200" Text="Храм Христа"/>
                 </StackLayout>
@@ -27,15 +27,15 @@
                     <ImageButton Source="MoscowCity.jpg" WidthRequest="150" HeightRequest="150" BackgroundColor="White" Margin="20,0,0,0" Clicked="OpenMoscowCity" BorderColor="#000000" ></ImageButton>
                     <ImageButton Source="OstankinoTower.jpg" WidthRequest="150" HeightRequest="150" BackgroundColor="White" Clicked="OpenOstankino" BorderColor="#000000" ></ImageButton>
                 </StackLayout>
-                <StackLayout Margin="60,0,0,0" Orientation="Horizontal" Spacing="70">
+                <StackLayout Margin="50,0,0,0" Orientation="Horizontal" Spacing="70">
                     <Label  WidthRequest="200" Text="Москва-Сити"/>
                     <Label  WidthRequest="200" Text="Останкинская телебашня"/>
                 </StackLayout>
-                <StackLayout Orientation="Horizontal" Spacing="50">
+                <StackLayout Orientation="Horizontal" Spacing="70">
                     <ImageButton Source="MoscowRiver.jpeg" WidthRequest="150" HeightRequest="150" BackgroundColor="White" Margin="20,0,0,0" Clicked="OpenMoscowRiver" BorderColor="#000000" ></ImageButton>
                     <ImageButton Source="ManejSquare.jpg" WidthRequest="150" HeightRequest="150" BackgroundColor="White" Clicked="OpenManej" BorderColor="#000000" ></ImageButton>
                 </StackLayout>
-                <StackLayout Margin="60,0,0,0" Orientation="Horizontal" Spacing="70">
+                <StackLayout Margin="50,0,0,0" Orientation="Horizontal" Spacing="30">
                     <Label  WidthRequest="200" Text="Москва-река"/>
                     <Label  WidthRequest="200" Text="Манежная Площадь"/>
                 </StackLayout>

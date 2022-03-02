@@ -14,16 +14,9 @@
     <ContentPage Title="History">
         <ScrollView>
             <StackLayout Spacing="-30">
-                <Label FontSize="15" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Останкинская телебашня (прежнее название — «общесоюзная радиотелевизионная передающая станция им. 50-ле́тия Октября́») — телевизионная и радиовещательная башня, расположенная в Останкинском районе Москвы. Высота здания — 540,1 м, по состоянию на сентябрь 2019 года — 14-е по высоте сооружение из когда-либо существовавших. Телебашня — высочайшее сооружение в Европе и России, член-учредитель Международной федерации великих башен."></Label>
-                <Label FontSize="15" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="На момент окончания строительства в зоне действия передатчиков проживало около 10 000 000 человек, к 2014 году башня охватила территорию с населением свыше 15 000 000 человек. Телебашня принадлежит филиалу ФГУП «Российская телевизионная и радиовещательная сеть» — «Московскому региональному центру»."></Label>
-                <ImageButton
-            VerticalOptions="End"
-            Margin="-40,80,120,0"
-            x:Name="a"
-            Aspect="AspectFit"
-            Scale="2"
-            Source="watermark.jpg"
-            Clicked="IconLoginImg_Clicked"/>
+                <Label FontSize="25" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Останкинская телебашня (прежнее название — «общесоюзная радиотелевизионная передающая станция им. 50-ле́тия Октября́») — телевизионная и радиовещательная башня, расположенная в Останкинском районе Москвы. Высота здания — 540,1 м, по состоянию на сентябрь 2019 года — 14-е по высоте сооружение из когда-либо существовавших. Телебашня — высочайшее сооружение в Европе и России, член-учредитель Международной федерации великих башен."></Label>
+                <Label FontSize="25" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="На момент окончания строительства в зоне действия передатчиков проживало около 10 000 000 человек, к 2014 году башня охватила территорию с населением свыше 15 000 000 человек. Телебашня принадлежит филиалу ФГУП «Российская телевизионная и радиовещательная сеть» — «Московскому региональному центру»."></Label>
+
             </StackLayout>
         </ScrollView>
     </ContentPage>
@@ -39,15 +32,15 @@
                 Scale="0.8"
                 Source="OstankinoTower.jpg"/>
                     <Label FontAttributes="Bold" Text="EXPLANATION FOR THE PHOTO" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center"></Label>
+                    <Image 
+                x:Name="MP2"
+                        Aspect="AspectFit"
+                WidthRequest="300"
+                HeightRequest="300"
+                Scale="0.8"
+                Source="Ostanskaya2.jpg"/>
                 </StackLayout>
-                <ImageButton
-            VerticalOptions="End"
-            Margin="-40,80,120,0"
-            x:Name="b"
-            Aspect="AspectFit"
-            Scale="2"
-            Source="watermark.jpg"
-            Clicked="IconLoginImg_Clicked"/>
+                
             </StackLayout>
         </ScrollView>
     </ContentPage>
@@ -62,14 +55,7 @@
             <Frame BorderColor="Black" Padding="0">
                 <Entry x:Name="Subway" TextColor="Black" IsEnabled="False" Placeholder="SUBWAY" Text="Akademika-Koroleva SQUARE" Background="White"/>
             </Frame>
-            <ImageButton
-            VerticalOptions="End"
-            Margin="-40,80,120,0"
-            x:Name="c"
-            Aspect="AspectFit"
-            Scale="2"
-            Source="watermark.jpg"
-            Clicked="IconLoginImg_Clicked"/>
+            
         </StackLayout>
     </ContentPage>
 </TabbedPage>

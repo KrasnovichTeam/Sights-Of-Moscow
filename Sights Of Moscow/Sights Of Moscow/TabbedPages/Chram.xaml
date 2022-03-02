@@ -14,15 +14,7 @@
     <ContentPage Title="History">
         <ScrollView>
             <StackLayout Spacing="-30">
-                <Label FontSize="15" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Храм Христа́ Спасителя, или Храм Рождества Христова, — кафедральный собор Русской православной церкви, расположенный в Москве на улице Волхонке. Существующее сооружение, построенное в 1990-х годах, является воссозданием одноимённого храма, разрушенного в 1931 году. Самый большой православный храм России. Храм находится на возвышении, окружён небольшим парком с комплексом зданий религиозного и светского назначения. В комплекс храма входят также два малых храма: каменный храм Покрова Божией Матери и бревенчатый храм-часовня Державной иконы Божией Матери — предтеча современного храма Христа Спасителя."></Label>
-                <ImageButton
-            VerticalOptions="End"
-            Margin="-40,80,120,0"
-            x:Name="a"
-            Aspect="AspectFit"
-            Scale="2"
-            Source="watermark.jpg"
-            Clicked="IconLoginImg_Clicked"/>
+                <Label FontSize="25" HorizontalTextAlignment="Center" Margin="20" FontAttributes="Bold" Text="Храм Христа́ Спасителя, или Храм Рождества Христова, — кафедральный собор Русской православной церкви, расположенный в Москве на улице Волхонке. Существующее сооружение, построенное в 1990-х годах, является воссозданием одноимённого храма, разрушенного в 1931 году. Самый большой православный храм России. Храм находится на возвышении, окружён небольшим парком с комплексом зданий религиозного и светского назначения. В комплекс храма входят также два малых храма: каменный храм Покрова Божией Матери и бревенчатый храм-часовня Державной иконы Божией Матери — предтеча современного храма Христа Спасителя."></Label>
             </StackLayout>
         </ScrollView>
     </ContentPage>
@@ -38,15 +30,15 @@
                 Scale="0.8"
                 Source="Chram.jpg"/>
                     <Label FontAttributes="Bold" Text="EXPLANATION FOR THE PHOTO" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center"></Label>
+                    <Image 
+                x:Name="MP2"
+                        Aspect="AspectFit"
+                WidthRequest="300"
+                HeightRequest="300"
+                Scale="0.8"
+                Source="Chram2.jpg"/>
                 </StackLayout>
-                <ImageButton
-            VerticalOptions="End"
-            Margin="-40,80,120,0"
-            x:Name="b"
-            Aspect="AspectFit"
-            Scale="2"
-            Source="watermark.jpg"
-            Clicked="IconLoginImg_Clicked"/>
+                
             </StackLayout>
         </ScrollView>
     </ContentPage>
@@ -61,14 +53,7 @@
             <Frame BorderColor="Black" Padding="0">
                 <Entry x:Name="Subway" TextColor="Black" IsEnabled="False" Placeholder="SUBWAY" Text="Volhonka SQUARE" Background="White"/>
             </Frame>
-            <ImageButton
-            VerticalOptions="End"
-            Margin="-40,80,120,0"
-            x:Name="c"
-            Aspect="AspectFit"
-            Scale="2"
-            Source="watermark.jpg"
-            Clicked="IconLoginImg_Clicked"/>
+            
         </StackLayout>
     </ContentPage>
 </TabbedPage>
